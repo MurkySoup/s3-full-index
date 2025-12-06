@@ -57,18 +57,6 @@ options:
   --max-retries MAX_RETRIES   Max retries for transient HTTP failures (default: 5).
 ```
 
-Usage:
-```
-python s3_full_index.py --bucket graphics.jsonline.com \
-    --output graphics.jsonline.com.index.xml \
-    [--region us-east-1] \
-    [--prefix some/path/] \
-    [--delimiter /] \
-    [--endpoint https://s3.amazonaws.com] \
-    [--timeout 15] \
-    [--max-retries 5]
-```
-
 Example given:
 ```
 ./s3_full_index.py \
